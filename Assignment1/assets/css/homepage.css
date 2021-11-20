@@ -1,0 +1,138 @@
+
+.container{
+	width:100%;
+	text-align: center;
+	position: relative;
+}
+h1{
+	color: blue;
+}
+
+div.topCol {
+	height: 5vh;
+}
+
+div.title {
+	height: 15vh;
+	background-color: #006DB5;
+}
+
+div.content {
+	height: 60vh;
+	width: 100%;
+	z-index: -1;
+	position: relative;
+}
+
+#logo{
+	width:100%;
+	height:100%;
+}
+
+#logoimg{
+	position: relative;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.button{
+	position: relative;
+	width: 100%;
+	height: 80%;
+	border-radius: 5%;
+	font-size: 9px;
+	background-color: white;
+	border: 1px;
+	padding: 5px;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	border: 1px solid grey;
+}
+
+#jobbutton{
+	color: white;
+	background-color: #006DB5;
+}
+
+#hirebutton{
+	
+}
+
+.navigation{
+	position: relative;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	font-size: 9px;
+}
+
+#home{
+	color: orange;
+}
+
+
+
+#info{
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#infobox{
+	margin: 0;
+	position: relative;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-40%);
+	font-size: 20px;
+	color: white;
+}
+
+#description {
+	width: 50%;
+	height: 40%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#descriptionbox{
+	margin: 0;
+	position: relative;
+	font-size: 12px;
+	color: white;
+}
+
+#searchbar{
+	width: 90%;
+	height: 20%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	z-index: 10;
+	overflow: visible;
+}
+
+#mapdiv{
+	position:relative;
+	width:80%;
+	height: 30%;
+	margin: 0 auto;
+	background-color: grey;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(20%);
+}
+
+
+#mapimg{
+	position: relative;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+div.info{
+	height: 25vh;
+	background-color: #006DB5;
+}
